@@ -1,0 +1,63 @@
+{
+
+    "products":[
+        {
+            "id":1,
+            "name":"i phone 12 pro max",
+            "desc":"Apple i phone 12 generation",
+            "price":999,
+            "color":"#33505a",
+            "image":"https://gadgetsleo.com/wp-content/uploads/2020/08/Apple-iPhone-12-Pro-Max-Gold-2.jpg"
+        },
+
+
+        {
+            "id":2,
+            "name":"One pluse 9 pro",
+            "desc":"I have not word for this phone",
+            "price":555,
+            "color":"#00ac51",
+            "image":"https://specifications-pro.com/wp-content/uploads/2020/10/OnePlus-9-1.jpg"
+        },
+
+        {
+            "id":3,
+            "name":"Assus ROG 5",
+            "desc":"Gaming Beast",
+            "price":500,
+            "color":"#e0bfae",
+            "image":"https://tse1.mm.bing.net/th?id=OIP.v3lV5o023Cjy8iVqe-qroAHaFj&pid=Api&P=0&w=244&h=183"
+        },
+
+        {
+            "id":4,
+            "name":"Realme GT",
+            "desc":"Flagship 5G Phone",
+            "price":350,
+            "color":"#544ee4",
+            "image":"https://tse1.mm.bing.net/th?id=OIP.4G8uKW4EXQYo_0TBeUdg9QHaHa&pid=Api&P=0&w=175&h=175"
+        },
+
+        {
+            "id":5,
+            "name":"Poco X3 Pro",
+            "desc":"Less but More",
+            "price":200,
+            "color":"#f739844",
+            "image":"https://tse4.mm.bing.net/th?id=OIP.3VoQkYEyPUODnChUMcyIewHaHa&pid=Api&P=0&w=155&h=155"
+        },
+
+       {    
+            "id":6,
+            "name":"Mac book pro",
+            "desc":"Amazing laptop for software devloper",
+            "price":1500,
+            "color":"#f739844",
+            "image":"https://tse2.mm.bing.net/th?id=OIP.lcr1isc0YwbqERWDIljahQHaEl&pid=Api&P=0&w=276&h=171"
+
+       }
+
+
+
+    ]
+}
