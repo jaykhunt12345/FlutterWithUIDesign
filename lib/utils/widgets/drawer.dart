@@ -7,7 +7,7 @@ class MyDrawer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final imageUrl =
-        "https://mh-2-stockagency.panthermedia.net/media/media_detail/0010000000/10818000/~tiger-face-symbol_10818814_detail.jpg";
+        "https://i.pinimg.com/originals/6f/da/c4/6fdac4b97ffbca079f7fb9ac52343287.jpg";
     return Drawer(
       child: Container(
         color: Colors.deepPurple,
