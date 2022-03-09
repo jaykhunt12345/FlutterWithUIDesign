@@ -6,8 +6,6 @@ class MyDrawer extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final imageUrl =
-        "https://i.pinimg.com/originals/6f/da/c4/6fdac4b97ffbca079f7fb9ac52343287.jpg";
     return Drawer(
       child: Container(
         color: Colors.deepPurple,
@@ -21,7 +19,8 @@ class MyDrawer extends StatelessWidget {
                   accountName: Text("Jay Khunt"),
                   accountEmail: Text("jaykhunt1591@gmail.com"),
                   currentAccountPicture: CircleAvatar(
-                    backgroundImage: NetworkImage(imageUrl),
+                    backgroundImage: AssetImage(
+                        "assets/images/100.jpg"),
                   )),
             ),
             ListTile(
