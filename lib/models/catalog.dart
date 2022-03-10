@@ -1,17 +1,14 @@
-class CatalogModel{
- static final items = [
-  item(
-      id: 1,
-      name: "i phone 12 pro max",
-      desc: "Apple i phone 12 generation",
-      price: 999,
-      color: "#33505a",
-      image:
-          "https://gadgetsleo.com/wp-content/uploads/2020/08/Apple-iPhone-12-Pro-Max-Gold-2.jpg"),
-];
-
+class CatalogModel {
+  static final items = [
+    item(
+        id: 1,
+        name: "i phone 12 pro max",
+        desc: "Apple i phone 12 generation (256GB)-Gold",
+        price: 105900,
+        color: "#33505a",
+        image: "https://m.media-amazon.com/images/I/71fJ-gmBZtL._SL1500_.jpg"),
+  ];
 }
-
 
 class item {
   final int id;
@@ -29,5 +26,3 @@ class item {
       required this.color,
       required this.image});
 }
-
-
