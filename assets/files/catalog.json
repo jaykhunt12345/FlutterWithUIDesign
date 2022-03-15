@@ -10,43 +10,116 @@
         },
         {
             "id": 2,
-            "name": "One pluse 9 pro",
-            "desc": "I have not word for this phone",
-            "price": 555,
+            "name": "One pluse 9 pro 5G",
+            "desc": "Morning Mist, 12GB RAM, 256GB Storage",
+            "price": 61999,
             "color": "#00ac51",
-            "image": "https://specifications-pro.com/wp-content/uploads/2020/10/OnePlus-9-1.jpg"
+            "image": "https://imgaz.staticbg.com/thumb/large/oaupload/banggood/images/02/D8/9f20e71c-9187-4590-bd07-e39091b1aa65.jpg"
         },
         {
             "id": 3,
             "name": "Assus ROG 5",
-            "desc": "Gaming Beast",
-            "price": 500,
+            "desc": "Gaming Beast, 8GB RAM, 128GB Storage",
+            "price": 37999,
             "color": "#e0bfae",
             "image": "https://tse1.mm.bing.net/th?id=OIP.v3lV5o023Cjy8iVqe-qroAHaFj&pid=Api&P=0&w=244&h=183"
         },
         {
             "id": 4,
             "name": "Realme GT",
-            "desc": "Flagship 5G Phone",
-            "price": 350,
+            "desc": "Flagship 5G Phone, 8GB RAM, 128GB Storage",
+            "price": 22880,
             "color": "#544ee4",
             "image": "https://tse1.mm.bing.net/th?id=OIP.4G8uKW4EXQYo_0TBeUdg9QHaHa&pid=Api&P=0&w=175&h=175"
         },
         {
             "id": 5,
-            "name": "Poco X3 Pro",
-            "desc": "Less but More",
-            "price": 200,
+            "name": "Poco M3 Pro",
+            "desc": "Less but More, 4GB RAM, 64GB Storage",
+            "price": 14970,
             "color": "#f739844",
             "image": "https://tse4.mm.bing.net/th?id=OIP.3VoQkYEyPUODnChUMcyIewHaHa&pid=Api&P=0&w=155&h=155"
         },
         {
             "id": 6,
-            "name": "Mac book pro",
-            "desc": "Amazing laptop for software devloper",
-            "price": 1500,
+            "name": "Mac book pro (M1 chip)",
+            "desc": "Amazing laptop for software devloper, 8GB RAM, 512GB SSD",
+            "price": 131990,
             "color": "#f739844",
-            "image": "https://tse2.mm.bing.net/th?id=OIP.lcr1isc0YwbqERWDIljahQHaEl&pid=Api&P=0&w=276&h=171"
+            "image": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202105/Apple_16-inch_MacBook_Pro_rend.png?OyiPPMec9DLYb7sQFjnkqOKX268VRNMk&size=770:433"
+        },
+        {
+            "id": 7,
+            "name": "Samsung Galaxy S22",
+            "desc": "8GB RAM, 256GB Storage",
+            "price": 54900,
+            "color": "#00ac51",
+            "image": "https://img.republicworld.com/republic-prod/stories/promolarge/xhdpi/xfzaaniw9poms3gp_1630597556.jpeg?tr=w-1200,h-900"
+        },
+        {
+            "id": 8,
+            "name": "HP Pavillion Gaming",
+            "desc": "intel Core i5 Processor, 16GB RAM, 512GB SSD",
+            "price": 79990,
+            "color": "#00ac51",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0F0UQkPonQN4RED7vChoboQROCXLMkZa6aZhFUeegbBiuTOFRYA_7XdC8ZxZ4GMh8Mf8&usqp=CAU"
+        },
+        {
+            "id": 9,
+            "name": "Apple Watch Searies 7",
+            "desc": "GPS + Cellular, 45mm",
+            "price": 53900,
+            "color": "#00ac51",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRljH0qyrePUIqGAEFyd-Nq-WQZTKczilDvRto4Hyk5LonKZr-Dv5H0AM6kw2TEFIOEFDg&usqp=CAU"
+        },
+        {
+            "id": 10,
+            "name": "Apple iMac, (M1 Chip)",
+            "desc": "With 4.5K Retina Display, 8GB RAM, 256GB Storage",
+            "price": 113990,
+            "color": "#00ac51",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTg8_ZI-sT-ni8OVWeXR9eGlpgsUcRswFR0O7zCTM2l69mLHv3APmY0a1XOz1M-8rf6xqY&usqp=CAU"
+        },
+        {
+            "id": 11,
+            "name": "LG Smart Tv",
+            "desc": "139mm, 4K Ultra HD Smart LED TV",
+            "price": 124999,
+            "color": "#00ac51",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx-qiEFsH6ZukB8xlbgY9QARxWb2YpM0wEukuCMVvv2nW44a3SIGGsnmmJVwOiI2V2rmM&usqp=CAU"
+        },
+        {
+            "id": 12,
+            "name": "Echo Dot (4th Generation)",
+            "desc": "Smart Speaker with Alexa",
+            "price": 4499,
+            "color": "#00ac51",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIIP1oCjFkTxXk1JLF-0F_RtaIIce7qwR0UjGfxkyKbLub9N5GUpKbpA9xuxFRxR5KyT8&usqp=CAU"
+        },
+        {
+            "id": 13,
+            "name": "Apple AirPods Pro",
+            "desc": "Bluetooth Speaker with Wireless Charging Case",
+            "price": 20490,
+            "color": "#00ac51",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQetzLOZMIhFMO3JEGGvBJ26Xrkx1dAimuGh9Zkfzcs-GX6PYerC3u7p9eAwf5L8fUHA0I&usqp=CAU"
+        },
+        {
+            "id": 14,
+            "name": "DJI tello boost combo camera drone ",
+            "desc": "5 mp camera with 3 batteries",
+            "price": 19499,
+            "color": "#00ac51",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpuNrSnz2l-_kNOeEmq8RTEi4vR3qgDoQjKZw1ooGI6vya35VTL9wjnrzTx_ZVglucsS4&usqp=CAU"
+        },
+        {
+            "id": 15,
+            "name": "Daikin Air Conditioner",
+            "desc": "1.5 Ton 5 Star Anti Pollution inverter Split AC",
+            "price": 55890,
+            "color": "#00ac51",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4fkS8ErJBqybZz5fMR_IjtevZVePoC2njuTuJniq2MJANy2ajm1EaHH2BbL8F3RFs4ro&usqp=CAU"
         }
+        
     ]
 }
