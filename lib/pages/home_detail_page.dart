@@ -14,7 +14,9 @@ class HomeDetailPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        backgroundColor: Colors.transparent,
+      ),
       backgroundColor: MyTheme.creamColor,
       bottomNavigationBar: Container(
         color: Colors.white,
@@ -65,6 +67,10 @@ class HomeDetailPage extends StatelessWidget {
                       10.heightBox,
                       catalog.desc.text.xl.make(),
                       10.heightBox,
+                      "This is an Electronic Device for make your Life Easy. "
+                          .text
+                          .make()
+                          .p16()
                     ],
                   ).py64(),
                 ),
