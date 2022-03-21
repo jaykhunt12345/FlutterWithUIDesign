@@ -14,8 +14,8 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    int days = 30;
-    String name = "Jay Khunt";
+    // int days = 30;
+    // String name = "Jay Khunt";
     return MaterialApp(
       themeMode: ThemeMode.system,
       theme: MyTheme.lightTheme,
