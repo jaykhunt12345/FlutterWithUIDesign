@@ -106,7 +106,7 @@
         },
         {
             "id": 14,
-            "name": "DJI tello boost combo camera drone ",
+            "name": "DJI camera drone ",
             "desc": "5 mp camera with 3 batteries",
             "price": 19499,
             "color": "#00ac51",
@@ -120,6 +120,5 @@
             "color": "#00ac51",
             "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4fkS8ErJBqybZz5fMR_IjtevZVePoC2njuTuJniq2MJANy2ajm1EaHH2BbL8F3RFs4ro&usqp=CAU"
         }
-        
     ]
 }

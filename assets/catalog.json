@@ -65,12 +65,12 @@
             "image": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c07960032.png?imwidth=248&imdensity=1"
         },
         {
-        "id": 9,
-        "name": "Apple Watch Searies 7",
-        "desc": "GPS + Cellular, 45mm",
-        "price": 53900,
-        "color": "#00ac51",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRljH0qyrePUIqGAEFyd-Nq-WQZTKczilDvRto4Hyk5LonKZr-Dv5H0AM6kw2TEFIOEFDg&usqp=CAU"
+            "id": 9,
+            "name": "Apple Watch Searies 7",
+            "desc": "GPS + Cellular, 45mm",
+            "price": 53900,
+            "color": "#00ac51",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRljH0qyrePUIqGAEFyd-Nq-WQZTKczilDvRto4Hyk5LonKZr-Dv5H0AM6kw2TEFIOEFDg&usqp=CAU"
         },
         {
             "id": 10,
@@ -106,7 +106,7 @@
         },
         {
             "id": 14,
-            "name": "dji tello boost combo camera drone ",
+            "name": "dji camera drone ",
             "desc": "5 mp camera with 3 batteries",
             "price": 19499,
             "color": "#00ac51",

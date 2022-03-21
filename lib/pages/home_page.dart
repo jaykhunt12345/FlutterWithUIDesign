@@ -47,6 +47,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
         backgroundColor: MyTheme.creamColor,
+        // backgroundColor: context.canvasColor,
         floatingActionButton: FloatingActionButton(
           onPressed: () => Navigator.pushNamed(context, MyRoutes.cartRoute),
           backgroundColor: MyTheme.darkBluishColor,
@@ -54,7 +55,7 @@ class _HomePageState extends State<HomePage> {
         ),
         body: SafeArea(
           child: Container(
-            padding: Vx.m32,
+            padding: Vx.m16,
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [

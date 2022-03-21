@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
     int days = 30;
     String name = "Jay Khunt";
     return MaterialApp(
-      themeMode: ThemeMode.light,
+      themeMode: ThemeMode.system,
       theme: MyTheme.lightTheme,
       darkTheme: MyTheme.darkTheme,
       debugShowCheckedModeBanner: false,

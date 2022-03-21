@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:velocity_x/velocity_x.dart';
 
 // class MyTheme{
 //   static ThemeData get lightTheme(BuildContext context) => ThemeData(
@@ -19,6 +20,9 @@ import 'package:flutter/material.dart';
 class MyTheme {
   static ThemeData get lightTheme => ThemeData(
       primarySwatch: Colors.deepPurple,
+      cardColor: Colors.white,
+      canvasColor: creamColor,
+      // buttonColor: darkBluishColor,
       appBarTheme: AppBarTheme(
         color: Colors.white,
         elevation: 0.0,
@@ -26,8 +30,10 @@ class MyTheme {
       ));
 
   static ThemeData get darkTheme => ThemeData(
-      brightness: Brightness.dark,
+      // brightness: Brightness.dark,
       cardColor: Colors.black,
+      canvasColor: darkcreamColor,
+      // buttonColor: lightBluishColor,
       appBarTheme: AppBarTheme(
         color: Colors.black,
         elevation: 0.0,
@@ -36,7 +42,9 @@ class MyTheme {
 
   // colors
   static Color creamColor = Color(0xfff5f5f5);
+  static Color darkcreamColor = Vx.gray900;
   static Color darkBluishColor = Color(0xff403b58);
+  static Color lightBluishColor = Vx.indigo500;
   static Color white = Color.fromARGB(255, 245, 245, 248);
   static Color black = Color.fromARGB(255, 14, 13, 13);
 }
