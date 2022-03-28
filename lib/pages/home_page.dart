@@ -1,6 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_ui_project_1/core/store.dart';
+import 'package:flutter_ui_project_1/models/cart.dart';
 import 'dart:convert';
 import 'package:flutter_ui_project_1/models/catalog.dart';
 import 'package:flutter_ui_project_1/utils/routes.dart';
@@ -45,29 +47,45 @@ class _HomePageState extends State<HomePage> {
 
   @override
   Widget build(BuildContext context) {
+    final _cart = (VxState.store as MyStore).cart;
     return Scaffold(
-        backgroundColor: MyTheme.creamColor,
-        // backgroundColor: context.canvasColor,
-        floatingActionButton: FloatingActionButton(
+      // appBar: AppBar(),
+      backgroundColor: MyTheme.creamColor,
+      // backgroundColor: context.canvasColor,
+      floatingActionButton: VxBuilder(
+        mutations: {AddMutation, RemoveMutation},
+        builder: (context, Card, _) => FloatingActionButton(
           onPressed: () => Navigator.pushNamed(context, MyRoutes.cartRoute),
           backgroundColor: MyTheme.darkBluishColor,
-          child: Icon(CupertinoIcons.cart),
-        ),
-        body: SafeArea(
-          child: Container(
-            padding: Vx.m16,
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                CatalogHeader(),
-                if (CatalogModel.items != null &&
-                    CatalogModel.items!.isNotEmpty)
-                  CatalogList().py16().expand()
-                else
-                  CircularProgressIndicator().centered().expand(),
-              ],
-            ),
+          child: Icon(
+            CupertinoIcons.cart,
+            color: Colors.white,
           ),
-        ));
+        ).badge(
+            color: Vx.gray200,
+            size: 20,
+            count: _cart.items.length,
+            textStyle: TextStyle(
+              color: Colors.black,
+              fontWeight: FontWeight.bold,
+            )),
+      ),
+      body: SafeArea(
+        child: Container(
+          padding: Vx.m16,
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              CatalogHeader(),
+              if (CatalogModel.items != null && CatalogModel.items!.isNotEmpty)
+                CatalogList().py16().expand()
+              else
+                CircularProgressIndicator().centered().expand(),
+            ],
+          ),
+        ),
+      ),
+      drawer: MyDrawer(),
+    );
   }
 }
