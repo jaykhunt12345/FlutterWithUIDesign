@@ -13,7 +13,11 @@ class CartPage extends StatelessWidget {
       backgroundColor: MyTheme.creamColor,
       appBar: AppBar(
         backgroundColor: Colors.transparent,
-        title: "Cart".text.color(MyTheme.black).make(),
+        title: Text(
+          "Cart",
+          style: TextStyle(color: Colors.black),
+        ),
+        centerTitle: true,
       ),
       body: Column(
         children: [
@@ -31,7 +35,6 @@ class _CartTotal extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    
     final CartModel _cart = (VxState.store as MyStore).cart;
     return SizedBox(
       height: 200,
@@ -39,15 +42,14 @@ class _CartTotal extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: [
           VxBuilder(
-            mutations: {RemoveMutation},
-            builder: (context, card, _) {
-              return "\₹${_cart.totalPrice}"
-                  .text
-                  .xl5
-                  .color(MyTheme.black)
-                  .make();
-            }
-          ),
+              mutations: {RemoveMutation},
+              builder: (context, card, _) {
+                return "\₹${_cart.totalPrice}"
+                    .text
+                    .xl5
+                    .color(MyTheme.black)
+                    .make();
+              }),
           30.widthBox,
           ElevatedButton(
                   onPressed: (() {

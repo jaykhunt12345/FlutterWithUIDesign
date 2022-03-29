@@ -6,12 +6,9 @@ import 'package:flutter_ui_project_1/models/cart.dart';
 import 'dart:convert';
 import 'package:flutter_ui_project_1/models/catalog.dart';
 import 'package:flutter_ui_project_1/utils/routes.dart';
-// import 'package:flutter_ui_project_1/pages/home_widgets/catalog_header.dart';
-// import 'package:flutter_ui_project_1/pages/home_widgets/catalog_list.dart';
 import 'package:flutter_ui_project_1/utils/widgets/drawer.dart';
 import 'package:flutter_ui_project_1/utils/widgets/home_widgets/catalog_header.dart';
 import 'package:flutter_ui_project_1/utils/widgets/home_widgets/catalog_list.dart';
-import 'package:flutter_ui_project_1/utils/widgets/item_widget.dart';
 import 'package:flutter_ui_project_1/utils/widgets/themes.dart';
 import 'package:velocity_x/velocity_x.dart';
 
@@ -49,7 +46,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     final _cart = (VxState.store as MyStore).cart;
     return Scaffold(
-      // appBar: AppBar(),
+      appBar: AppBar(),
       backgroundColor: MyTheme.creamColor,
       // backgroundColor: context.canvasColor,
       floatingActionButton: VxBuilder(
@@ -62,7 +59,7 @@ class _HomePageState extends State<HomePage> {
             color: Colors.white,
           ),
         ).badge(
-            color: Vx.gray200,
+            color: Vx.gray400,
             size: 20,
             count: _cart.items.length,
             textStyle: TextStyle(
